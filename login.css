@@ -1,0 +1,102 @@
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+}
+.main-div{
+    width: 60%;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    box-shadow: 3px 4px rgb(27,106,224);
+}
+
+.div1{
+    width: 50%;
+    background-color: rgb(130,202,175);
+}
+
+.div2{
+    width: 50%;
+    background-color: white;
+    text-align: center;
+}
+
+.div2 .clogo{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    padding-top: 50px;
+}
+
+.div2 .welcomeLine{
+    color: rgb(173,173,173);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px 0px 20px;
+}
+
+.login-box{
+    width: 50%;
+    margin: auto;
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0px;
+    margin: 8px 0px;
+    border-bottom: 1px solid #4caf50;
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0px 10px;
+    color: #000;
+}
+
+.forgetPass{
+    padding-left: 132px;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(145,145,145);
+}
+
+.login-btn{
+    width: 50%;
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin:12px 0px;
+}
+
+.create-Acc{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(145,145,145);
+    padding-bottom: 80px;
+}
+
+.Acc{
+    text-decoration: underline;
+}
+
+.teamImg{
+    width: 70%;
+    padding: 50px 75px 20px;
+}
+
+.div1 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
